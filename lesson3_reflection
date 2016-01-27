@@ -5,3 +5,15 @@ In case of colloborative efforts it's a good idea to keep a repository where dif
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 If git stays updated with all the contents of my remote repository then it would take in unfinished projects and that would create a lot of unnecessary information. 
+
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are used to clone someone's repository when you don't have permission to make any changes to their repository. This is like cloning but only in github
+
+Clones are used to create copies of repository either within your system or from remote systems like Git hub.
+
+branches are used to create alternate, mostly experimental changes to your existing code. This way if something goes wrong, you won't be doing any harm to other files not part of the branch.Once you have your branch up and running you can always merge them to the existing master branch of the code.
+
+I would use fork to clone a repository in github, clone to create duplicates of repository in my system or from/to a remote system, and branch for the purposes stated above.
